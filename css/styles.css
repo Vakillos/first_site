@@ -1,0 +1,163 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 200%;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Patrick Hand', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Patrick Hand', cursive;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 25%;
+  margin: 100px auto;
+}
+
+/*****Class Elements*****/
+
+.top_container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle_container {
+margin: 100px 0;
+}
+
+.bottom_container {
+  background-color: #66BFBF;
+  position: relative;
+  padding: 50px 0 50px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 200px;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  width: 250px;
+
+}
+
+.mountain {
+  width: 800px;
+}
+
+.xls {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+  text-align: right;
+}
+
+.word {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.postgre {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.waste {
+  text-decoration: underline;
+}
+
+.disclaimer {
+  color: #EAF6F6;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.button {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #66bfbf 5%, #408c99 100%);
+  background-color: #66bfbf;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #66bfbf 100%);
+  background-color: #408c99;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+.footer-link {
+  margin: 0 10px 0 10px;
+  font-size: 2rem;
+  text-decoration: none;
+  font-size: 20px;
+}
